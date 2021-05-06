@@ -6,18 +6,18 @@ namespace AulaSubRotinas
     {
         static void Main(string[] args)
         {
-            //ExibirHora();
-            //AguardarUsuario();
-            //ExibirHora();
-            //AguardarUsuario("Pressione outra");
-            //ExibirHora();
+            ExibirHora();
+            AguardarUsuario();
+            ExibirHora();
+            AguardarUsuario("Pressione outra");
+            ExibirHora();
 
-            //string nome = LerString("Nome: ");
-            //string sobrenome = LerString("Sobrenome: ");
+            string nome = LerString("Nome: ");
+            string sobrenome = LerString("Sobrenome: ");
 
-            //string nomeCompleto = obterNome(nome, sobrenome);
+            string nomeCompleto = obterNome(nome, sobrenome);
 
-            //Console.WriteLine($"Obrigado, {nomeCompleto}");
+            Console.WriteLine($"Obrigado, {nomeCompleto}");
 
             
         }
